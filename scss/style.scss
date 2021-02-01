@@ -1,0 +1,22 @@
+// ======================================
+//  Partial Imports
+// ======================================
+
+// Utilities import
+@import "./utilities/functions";
+@import "./utilities/mixins";
+@import "./utilities/placeholder";
+@import "./utilities/variables";
+
+
+//base style import; 
+@import"./base/base_styles";
+
+//component import 
+@import "./components/gallery";
+@import "./components/searchbox";
+
+
+
+
+

@@ -1,0 +1,64 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+* {
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
+li, ul {
+  text-decoration: none;
+}
+
+/* ============================================= */
+/*             Gallery                           */
+/* ============================================= */
+.gallery {
+  margin: 1rem 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 10px 20px;
+}
+
+.gallery img {
+  transition: 0.2s;
+}
+
+.gallery img:hover {
+  filter: grayscale(50%);
+  transform: scale(1.1);
+}
+
+/* ============================================= */
+/*             Searchbox                         */
+/* ============================================= */
+.input-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.input-div input {
+  justify-content: left;
+  margin: 0;
+  min-width: 150px;
+  width: 30%;
+  max-width: 450px;
+  height: 40px;
+  border-radius: 3px;
+  border-color: lightgray;
+  padding-left: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.input-div input:hover {
+  border-color: black;
+}
+/*# sourceMappingURL=style.css.map */

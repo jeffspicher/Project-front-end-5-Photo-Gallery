@@ -1,0 +1,25 @@
+/* ============================================= */
+/*             Searchbox                         */
+/* ============================================= */
+.input-div{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+
+    input{
+        justify-content: left;
+        margin:0;
+        min-width: 150px;
+        width:30%;
+        max-width:450px;
+        height:40px;
+        border-radius:3px;
+        border-color:lightgray;
+        padding-left:10px;
+        transition: 0.2s ease-in-out;
+        &:hover{
+            border-color:black;
+        }
+        
+    }
+}
